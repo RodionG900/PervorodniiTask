@@ -34,10 +34,6 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Linker>
-			<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/x86_64-w64-mingw32/lib/libopenbgi.a" />
-			<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/x86_64-w64-mingw32/lib/libgdi32.a" />
-		</Linker>
 		<Unit filename="include/Graph.h" />
 		<Unit filename="include/clCircle.h" />
 		<Unit filename="include/clLine.h" />
