@@ -34,7 +34,6 @@ int main()
             edges[k] = ardob[i][j];
             k++;
         }
-        cout << endl;
     }
     Graph g(n, arr, edges);
     g.show();
