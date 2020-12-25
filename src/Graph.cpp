@@ -76,7 +76,6 @@ void Graph::dvudolnost()
     //алгоритм останавливается и выводит impossible
     //если все компоненты успешно покрашены, картинка красится в новые цвета(цвет отвечает за долю двудольного графа)
     vector<pair<int, int>> ver(n);
-    vector<pair<int, int>>::iterator it = ver.begin();
     for(int i = 0; i<n; i++){
         ver[i] = make_pair(i, -1);
     }
